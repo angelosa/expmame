@@ -128,3 +128,6 @@ dmypy.json
 notebooks/
 # use scripts folder for your batch shell scripts
 .scripts
+
+# we opt-out of lock file for now (need to test this one up)
+poetry.lock

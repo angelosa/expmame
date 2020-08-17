@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "expmame"
+version = "0.0.1"
+description = "List of EXPerimental MAME tools written in Python, mostly to aid with automated testing."
+authors = ["DonKale"]
+license = "LGPL-2.1-only"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytest = "*"
+toml = "*"
+argparse = "*"
+requests = "*"
+tqdm = "*"
+lxml = "*"
+xlrd = "*"
+pygithub = "*"
+pandas = "*"
+xlsxwriter = "^1.3.3"
+
+[tool.poetry.dev-dependencies]
+pylint = "*"
+jupyterlab = "*"
+ipywidgets = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
